@@ -1,0 +1,39 @@
+syntax: glob
+
+# Temporary files from editors:
+*~
+.\#*
+\#*\#
+.*.swp
+
+# Output from tests:
+tests/build.status
+tests/run.status
+tests/*/*.errors
+tests/*/*.output
+
+# Generated test executables:
+
+# Test output to clean up:
+
+# Output from source text metric analysis:
+obj/*.ad[sb].metrix
+
+# Output from ASIS based tools:
+*.adt
+
+# Generated source files:
+src/mercurial.ads
+
+# Generated object files:
+obj/*.ali
+obj/*.o
+obj/*.dg
+
+# Generated executables:
+bin/case_coverage
+bin/demo
+bin/primes
+bin/subtypes_of_dimensioned_types
+bin/use_power_of_2
+
