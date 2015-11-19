@@ -1,8 +1,11 @@
-PROJECT=The_Project
+PROJECT=Ada_2012_Examples
 
-GENERATED_EXECUTABLES=bin/$(LC_PROJECT)-demo
+GENERATED_EXECUTABLES=bin/case_coverage \
+                      bin/$(LC_PROJECT)-demo \
+                      bin/subtypes_of_dimensioned_types \
+                      bin/use_power_of_2
 
-GENERATED_SOURCES=
+GENERATED_SOURCES=src/$(LC_PROJECT)-mercurial.ads
 
 SCRIPTS=
 
