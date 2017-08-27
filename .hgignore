@@ -24,14 +24,31 @@ obj/*.ad[sb].metrix
 *.adt
 
 # Generated source files:
-src/the_project.ads
-src/the_project-mercurial.ads
-src/the_project-demo.adb
+src/ada_2012_examples.ads
+src/ada_2012_examples-mercurial.ads
+src/ada_2012_examples-demo.adb
 
 # Generated object files:
 obj/*.ali
 obj/*.o
+obj/*.dg
 
 # Generated executables:
-bin/the_project-demo
+bin/ada_2012_examples-demo
+bin/attribute_demo
+bin/case_coverage
+bin/chained_calls
+bin/classes-example
+bin/codici_a_confronto
+bin/container_indexing
+bin/lang
+bin/primes
+bin/producer_consumer_v1
+bin/set_with_modular_representation_demo
+bin/sets_and_subtypes
+bin/subtypes_of_dimensioned_types
+bin/tasking_barriers_and_terminate
+bin/test_example_1
+bin/use_power_of_2
+bin/using_variant_records
 
